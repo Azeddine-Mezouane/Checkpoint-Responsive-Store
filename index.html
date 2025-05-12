@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            fontFamily: {
+              costum: ["magica"],
+              Poppins: ["Poppins"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="flex items-center py-7 justify-around">
+      <div class="logo">
+        <img class="w-[50%]" src="Assets/images/logo.png" alt="" />
+      </div>
+      <div>
+        <ul class="flex gap-7 max-md:hidden font-Poppins font-light">
+          <li class="font-medium">Accueil</li>
+          <li>Produits</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="absolute md:hidden right-10">
+        <img src="Assets/images/menu.svg" alt="" />
+      </div>
+    </nav>
+    <!----------------------------------------- hero -------------------------------------------->
+    <section class="md:px-10 px-5">
+      <div class="heroimage w-[100%] relative -mt-2">
+        <img class="" src="Assets/images/hero-image2.jpg" alt="" />
+        <div
+          class="flex-col absolute text-white max-md:right-[10vw] right-[6vw] top-[20%]"
+        >
+          <h1 class="font-Poppins text-[3.05vw] translate-y-[3vw] font-light">
+            Elevate your space with
+          </h1>
+          <h1 class="font-costum text-[10vw] text-white">
+            <span class="text-[#D3A57D]">O</span>aken
+          </h1>
+        </div>
+      </div>
+    </section>
+    <!----------------------------------------- Produit ------------------------------------------>
+    <section class="md:px-10 px-5">
+      <h1 class="font-costum mt-[4.5vw] text-[3.5vw] max-md:text-[6vw]">
+        Produit
+      </h1>
+      <div
+        class="Produit-page flex justify-between max-md:flex-col max-md:gap-12 max-md:items-center p-10 bg-[#F2E1D2] mt-[1vw] rounded-[20px] max-md:rounded-[10px]"
+      >
+        <div>
+          <div class="flex relative">
+            <div
+              class="card bg-[#E5C6AA] w-[220px] h-[433px] rounded-[20px] max-md:rounded-[10px]"
+            ></div>
+            <img
+              class="w-[400px] translate-x-[00px] -translate-y-[15px] absolute"
+              src="Assets/images/OakLift.png "
+              alt=""
+            />
+            <div class="card-text absolute bottom-0 px-7 mb-7">
+              <h1 class="font-costum text-[#584129] text-[25px]">OakLift</h1>
+              <p class="font-light">Support en bois pour les PC portables.</p>
+              <h1
+                class="font-Poppins mt-3 text-[15px] justify-self-end font-costum text-[#584129]"
+              >
+                3700 <span class="text-[10px]">Da</span>
+              </h1>
+              <div class="mt-3">
+                <img src="Assets/images/btn-bg.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex relative">
+            <div
+              class="card bg-[#E5C6AA] w-[220px] h-[433px] rounded-[20px] max-md:rounded-[10px]"
+            ></div>
+            <img
+              class="w-[200px] translate-x-[40px] -translate-y-[15px] absolute"
+              src="Assets/images/OakDock.png "
+              alt=""
+            />
+            <div class="card-text absolute bottom-0 px-7 mb-7">
+              <h1 class="font-costum text-[#584129] text-[25px]">OakDock</h1>
+              <p class="font-light">Base en bois pour PC compact.</p>
+              <h1
+                class="font-Poppins mt-3 text-[15px] justify-self-end font-costum text-[#584129]"
+              >
+                3200 <span class="text-[10px]">Da</span>
+              </h1>
+              <div class="mt-3">
+                <img src="Assets/images/btn-bg.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="flex relative">
+            <div
+              class="card bg-[#E5C6AA] w-[220px] h-[433px] rounded-[20px] max-md:rounded-[10px]"
+            ></div>
+            <img
+              class="w-[500px] translate-x-[00px] -translate-y-[15px] absolute"
+              src="Assets/images/Oaktime.png "
+              alt=""
+            />
+            <div class="card-text absolute bottom-0 px-7 mb-7">
+              <h1 class="font-costum text-[#584129] text-[25px]">OakTime</h1>
+              <p class="font-light">Socle en bois pour montres connectées.</p>
+              <h1
+                class="font-Poppins mt-3 text-[15px] justify-self-end font-costum text-[#584129]"
+              >
+                2900 <span class="text-[10px]">Da</span>
+              </h1>
+              <div class="mt-3">
+                <img src="Assets/images/btn-bg.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex relative">
+            <div
+              class="card bg-[#E5C6AA] w-[220px] h-[433px] rounded-[20px] max-md:rounded-[10px]"
+            ></div>
+            <img
+              class="w-[120px] translate-x-[80px] -translate-y-[25px] absolute"
+              src="Assets/images/OakTone.png "
+              alt=""
+            />
+            <div class="card-text absolute bottom-0 px-7 mb-7">
+              <h1 class="font-costum text-[#584129] text-[25px]">OakTone</h1>
+              <p class="font-light">Support en bois pour casques audio.</p>
+              <h1
+                class="font-Poppins mt-3 text-[15px] justify-self-end font-costum text-[#584129]"
+              >
+                1700 <span class="text-[10px]">Da</span>
+              </h1>
+              <div class="mt-3">
+                <img src="Assets/images/btn-bg.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------------------------- Contact ------------------------------------------>
+  <section  >
+    <div
+    class=" overflow-hidden max-md:rounded-[10px] rounded-[20px] max-md:w-[90vw] md:max-w-[50vw] mx-auto  my-[5vw] font-poppins bg-[#F2E1D2]">
+    <div class="p-8 ">
+        <h2 class="font-costum md:text-[30px] text-[20px] font-bold text-[#584129]">Contact</h2>
+      
+
+        <form>
+            <div class="space-y-4 mt-8">
+                <input type="text" placeholder="Full Name"
+                    class=" placeholder-gray-600 px-2 py-3 bg-transparent text-[#584129] w-full text-sm border-b border-gray-800 focus:border-[#C68C5A] outline-none" />
+              
+
+                <input type="email" placeholder="Email"
+                    class=" placeholder-gray-600 px-2 py-3 bg-transparent text-[#584129] w-full text-sm border-b border-gray-800 focus:border-[#C68C5A] outline-none" />
+
+                <textarea placeholder="Write Message"
+                    class=" placeholder-gray-600 px-2 pt-3 bg-transparent text-[#584129] w-full text-sm border-b border-gray-800 focus:border-[#C68C5A] outline-none"></textarea>
+            </div>
+
+            <button type="button"
+                class="mt-8 flex items-center justify-center text-sm w-full rounded-md px-6 py-3 tracking-wide text-gray-800 bg-[#D3A57D] hover:bg-[#C68C5A]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='currectColor' class="mr-2"
+                    viewBox="0 0 548.244 548.244">
+                    <path fill-rule="evenodd"
+                        d="M392.19 156.054 211.268 281.667 22.032 218.58C8.823 214.168-.076 201.775 0 187.852c.077-13.923 9.078-26.24 22.338-30.498L506.15 1.549c11.5-3.697 24.123-.663 32.666 7.88 8.542 8.543 11.577 21.165 7.879 32.666L390.89 525.906c-4.258 13.26-16.575 22.261-30.498 22.338-13.923.076-26.316-8.823-30.728-22.032l-63.393-190.153z"
+                        clip-rule="evenodd" data-original="#000000" />
+                </svg>
+                Envoyer un message
+
+            </button>
+        </form>
+        
+    </div>
+        <!----------------------------------------- footer ------------------------------------------>
+
+  </section>
+  <footer class="h-[50px] bg-[#D3A57D] flex justify-center items-center" >
+    <p class="text-[#584129] font-Poppins font-medium max-md:text-[13px]">   Azeddine Mezouane 2024 &copy; Tous droits réservés.</p>
+
+    
+  </footer>
+  </body>
+</html>
