@@ -21,3 +21,7 @@
   font-family: "magica";
   src: url("Assets/font/Magica.otf");
 }
+.d{
+  justify-content:space-evenly;
+  flex-direction: column-reverse;
+}
