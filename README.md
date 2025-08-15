@@ -1,3 +1,5 @@
+DEMO : [Link](https://checkpoint-responsive-store.vercel.app/)
+---
 # Documentation du site Oaken
 
 ## 1. Aperçu général
